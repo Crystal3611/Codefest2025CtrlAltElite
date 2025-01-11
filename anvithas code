@@ -15,3 +15,25 @@ body {
     }
     </style>
 <p>Catfishing means someone is using a fake identity to trick you into a real online friendship or a relationship. The catfish can lie about their gender and age to make you trust them. Once you trust the person, they can do anything, like humiliate you and reveal your secrets to others.</p>
+<style>
+/* Basic button styling */
+.button {
+display: inline-block;
+padding: 10px 20px;
+margin: 10px;
+background-color: #09503b; /* Light green background */
+color: white;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+font-size: 16px;
+transition: background-color 0.3s ease;
+}
+/* Hover effect */
+.button:hover {
+background-color: #a0ead4; /* Light green */
+}
+</style>
+<body>
+<!-- Buttons as links -->
+<a href="first.html" class="button">Home</a>
