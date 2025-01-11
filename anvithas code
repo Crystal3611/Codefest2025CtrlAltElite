@@ -7,57 +7,9 @@
 <style>
  <title>Pop-up Catfishing</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1a1a1a;
-            color: #ffffff;
-            text-align: center;
-            padding: 50px
-}
-    .info-box {
-        background-color: #333333;
-        padding: 20px;
-        margin: 20px auto;
-        width: 60%;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+body {
+    background-image: url(https://media.istockphoto.com/id/1420039900/photo/cyber-security-ransomware-email-phishing-encrypted-technology-digital-information-protected.jpg?s=612x612&w=0&k=20&c=8wFwFVMOpW9gF2GTOx0vagIKDaw3YNFnBVbYCmoTUSY=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
-    .btn { 
- padding: 10px 20px;
-        margin: 10px;
-        border: none;
-        background-color: #oo7BFF;
-        color: white;
-        cursor: pointer;
-        border-raduis: 5px;
-    }
-    .btn:hover {
-        background-color: #0056b3;
-    }
-    </style>
-</head>
-<body>
-  <h1>Cybersecurity Awareness</h1>
-    <div class="info-box">
-        <h2>What is Catfishing??</h2>
-        <p>Catfishing means someone is using a fake identity to trick you into a real online friendship or a relationship.The catfish can lie about their gender and age to make you trust you Once you trust the person, they can do anything like humiliate and reveal your secrets  to others .</p>
-    </div>
-    <div class="info-box">
-        <h2>Common Threats</h2>
-        <ul>
-            <li>Phishing Attacks</li>
-            <li>Malware and Ransomware</li>
-            <li>Password Theft</li>
-        </ul>
-    </div>
-    <div class="info-box">
-        <h2>Tips to Stay safe</h2>
-        <ul>
-             <li>Use strong and unique passwords.</li>
-             <li>Use strong and unique passwords.</li>
-             <li>Use strong and unique passwords.</li>
-         </ul>
-    </div>
-    <button class="btn" onclick="alert('Always stay vigilant online')">
-</body>
-</hmtl>
