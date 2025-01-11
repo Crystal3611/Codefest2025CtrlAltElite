@@ -1,46 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html laeg="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black and Blue Button Website</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-            font-family: Arial, sans-serif;
-        }
-        .button-container {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-        .btn {
-            width: 200px;
-            padding: 15px;
-            background-color: blue;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .btn:hover {
-            background-color: darkblue;
-        }
-    </style>
+<meta charset="UTF-8"
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cybersecurity</title>
+<stylt>
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+font-family: Arial, sans-serif;
+}
+.button-container {
+display: flex;
+flex-direction; column;
+gap: 20px;
+}
+.btn {
+width: 200px;
+padding: 15px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+.btn:hover {
+background-color: darkblue;
+}
+</style>
 </head>
 <body>
-    <div class="button-container">
-        <button class="btn">Button 1</button>
-        <button class="btn">Button 2</button>
-        <button class="btn">Button 3</button>
-        <button class="btn">Button 4</button>
-    </div>
+<div class="button-container">
+<button class="btn">Button 1</button>
+<button class="btn">Button 2</button>
+<button class="btn">Button 3</button>
+<button class="btn">Button 4</button>
+</div>
 </body>
 </html>
