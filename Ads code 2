@@ -10,7 +10,7 @@
             padding: 25px 35px;
             margin: 18px;
             background-color: #80c4af;
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
             text-align: center;
             text-decoration: none;
             border-raduis: 18px;
@@ -20,7 +20,7 @@
        .button:hover {
             background-image: linear-gradient(45deg, #0072ff, #00c6ff);
             transform: scale(1.1);
-            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 12px 20px rgb(254, 254, 254);
          body {
             background-color: #f0f8ff;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -33,12 +33,12 @@
         }
         .button:active {
             transform: scale(0.95);
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 10px rgb(255, 255, 255);
        }
    </style>
 </head>
 <body>
-    <p><font size="15"><center>What should you do if you encounter a pop-up phishing attempt?</center></font></p>
+    <p><font size="15"><font color="white"><center>What should you do if you encounter a pop-up phishing attempt?</center></</font></p>
     <center>
         <a href="javascript:void(0);" class="button" onclick="checkAnswer(true)">Ignore the pop-up and close the tab</a>
         <a href="javascript:void(0);" class="button" onclick="checkAnswer(false)">Click the link to report it</a>
@@ -73,4 +73,12 @@
    
 
 
-         
+
+
+
+       
+
+    
+
+    
+ 
