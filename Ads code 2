@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Quiz</title>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 25px 35px;
+            margin: 18px;
+            background-color: #80c4af
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: none;
+            border-raduis: 18px;
+            font-size: 28px;
+            transition: background-color 0.3s ease;
+       }
+       .button:hover {
+            background-image: linear-gradient(45deg, #0072ff, #00c6ff);
+            transform: scale(1.1);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+         body {
+            background-color: #f0f8ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+       .question {
+            font-size: 36px;
+            text-align: center;
+            margin-top: 100px;
+            color: #333;
+        }
+        .button:active {
+            transform: scale(0.95);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+       }
+   </style>
+</head>
+<body>
+    <p><font size="15"><center>What should you do if you encounter a pop-up phishing attempt?</center></font></p>
+    <center>
+        <a href="javascript:void(0);" class="button" onclick="checkAnswer(true)">Ignore the pop-up and close the tab</a>
+        <a href="javascript:void(0);" class="button" onclick="checkAnswer(false)">Click the link to report it</a>
+    </center>
+
+    <script>
+        function checkAnswer(isCorrect)
+            if (isCorrect) {
+                alert("Congratulations! You chose the right option!");
+            } else {
+                alert("Oops! This is the wrong option");
+            }
+            let reason = prompt("Why did you make this choice?");
+            if (reason) {
+                alert("Your reason: " + reason);
+            } else {
+                alert("No reason provided.");
+            }
+        }
+    </script>
+</body>
+</html>
+   
+
+
+         
