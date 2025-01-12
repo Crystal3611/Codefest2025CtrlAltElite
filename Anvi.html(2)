@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catfishing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://img.freepik.com/premium-photo/blur-abstract-background-green-gradient-apps-web-design-web-page-banner-illustration-design_97567-1598.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+        }
+        .info-box, .question-box {
+            background-color: #333333;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            background-color: #003366;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #002244;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: crimson;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catfishing</h1>
+    <div class="question-box">
+        <h3>Q1: How can I verify someone’s identity before building trust with them online?</h3>
+        <button class="btn" onclick="alert('Verify someone\'s identity by requesting a video call, conducting a reverse image search, and cross-checking their social media for consistency.')">Show Answer</button>
+    </div>
+    <div class="question-box">
+        <h3>Q2: How can I tell the difference between a genuine profile and a fake one?</h3>
+        <button class="btn" onclick="alert('Look for consistency in photos, detailed bios, active social media, genuine interactions, and avoid profiles with overly perfect pictures, vague details, or recently created accounts.')">Show Answer</button>
+    </div>
+    <div class="question-box">
+        <h3>Q3: What should I do if a friend or family member is being catfished?</h3>
+        <button class="btn" onclick="alert('Gather evidence, gently share your concerns, encourage them to verify the person\'s identity, and suggest steps like a video call or reverse image search while offering emotional support.')">Show Answer</button>
+    </div>
+    <a href="Code.html" class="button">Next</a>
+</body>
+</html>
