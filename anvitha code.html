@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Quiz</title>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 25px 35px;
+            margin: 18px;
+            background-color: #80c4af;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            text-decoration: none;
+            border-raduis: 18px;
+            font-size: 28px;
+            transition: background-color 0.3s ease;
+       }
+       .button:hover {
+            background-image: linear-gradient(45deg, #0072ff, #00c6ff);
+            transform: scale(1.1);
+            box-shadow: 0 12px 20px rgb(254, 254, 254);
+         body {
+            background-color: #f0f8ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+       .question {
+            font-size: 36px;
+            text-align: center;
+            margin-top: 100px;
+            color: #ffffff;
+        }
+        .button:active {
+            transform: scale(0.95);
+            box-shadow: 0 5px 10px rgb(255, 255, 255);
+       }
+   </style>
+</head>
+<body>
+    <p><font size="15"><font color="white"><center>What to do if you are the victime of catfishing?</center></</font></p>
+    <center>
+        <a href="javascript:void(0);" class="button" onclick="checkAnswer(true)">First check the perpetrators account</a>
+        <a href="javascript:void(0);" class="button" onclick="checkAnswer(false)">Forst report it without any background check</a>
+    </center>
+
+    <script>
+        function checkAnswer(isCorrect) {
+            if (isCorrect) {
+                alert("Congratulations! You chose the right option!");
+            } else {
+                alert("Oops! This is the wrong option");
+            }
+            let reason = prompt("Why did you make this choice?");
+            if (reason) {
+                alert("Your reason: " + reason);
+            } else {
+                alert("No reason provided.");
+            }
+        }
+    </script>
+</body>
+<style>
+ body {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwsHBgYGBwsRCgYHBg0PBgYHDQ8ICRAWFBEWFhURExMYHSggGBolGxMVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQUFDgUFFSsZExkrKysrKystLSsrKysrKysrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAK4BIgMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAgEH/8QAFRABAQAAAAAAAAAAAAAAAAAAABH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgMB/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwDh0IodiomEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImCghFQioRplcTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMFRhkioRcIuLiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiILgQioRouLjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjINCEVCNhFxcZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZGKgQioRQuKiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYKaQjYRsIuLjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIxUCEVCKhFxcTCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETBUCEVCNhFxpGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQbAhFQihcUmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwUEFDRcXGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhH/2Q==);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+</style> 
+
+</html>
+   
+
+
+
+
+
+       
+
+    
+
+    
+
+
+
+       
+
+    
+
+    
