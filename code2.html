@@ -39,13 +39,21 @@
             border-radius: 18px;
             font-size: 28px;
             transition: background-color 0.3s ease;
+            cursor: pointer;
         }
 
-        /* Hover effect */
-        .button:hover {
+       
+         .button:hover {
             background-color: crimson;
         }
     </style>
+</style>
+    <script>
+        function showMessage(message) {
+            alert(message);
+
+    }
+    </script>
 </head>
 <body>
     <h1>Catfishing</h1>
@@ -55,10 +63,8 @@
     </p>
 
     <center>
-        <a href="#" class="button">Block and report</a>
-        <a href="Scenario1.html" class="button">Still text the person</a>
+        <button class="button" onclick="showMessage('Good job!')">Block and report</button>
+        <button class="button" onclick="showMessage('Be cautious because this could get you catfished easily')">Still text the person</button>
     </center>
 </body>
 </html>
-Be cautious because this could get you catfished easily
-Good job!
