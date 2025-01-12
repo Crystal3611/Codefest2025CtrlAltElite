@@ -9,7 +9,7 @@
             display: inline-block;
             padding: 25px 35px;
             margin: 18px;
-            background-color: #80c4af
+            background-color: #80c4af;
             color: rgb(0, 0, 0);
             text-align: center;
             text-decoration: none;
@@ -29,7 +29,7 @@
             font-size: 36px;
             text-align: center;
             margin-top: 100px;
-            color: #333;
+            color: #ffffff;
         }
         .button:active {
             transform: scale(0.95);
@@ -45,7 +45,7 @@
     </center>
 
     <script>
-        function checkAnswer(isCorrect)
+        function checkAnswer(isCorrect) {
             if (isCorrect) {
                 alert("Congratulations! You chose the right option!");
             } else {
@@ -60,7 +60,7 @@
         }
     </script>
 </body>
-</html>
+<style>
  body {
     background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwsHBgYGBwsRCgYHBg0PBgYHDQ8ICRAWFBEWFhURExMYHSggGBolGxMVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQUFDgUFFSsZExkrKysrKystLSsrKysrKysrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAK4BIgMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAgEH/8QAFRABAQAAAAAAAAAAAAAAAAAAABH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgMB/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwDh0IodiomEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImEUEImCghFQioRplcTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMIqEMkTCKhDJEwioQyRMFRhkioRcIuLiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiIRcIQiILgQioRouLjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjIRoQjINCEVCNhFxcZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZCNhCEZGKgQioRQuKiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYRQQiYKaQjYRsIuLjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIRsIQjIxUCEVCKhFxcTCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETCKhCETBUCEVCNhFxpGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQjYQhGQbAhFQihcUmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwiggmEUEEwUEFDRcXGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhGDQhH/2Q==);
     background-repeat: no-repeat;
@@ -68,6 +68,8 @@
     background-size: cover;
 
 </style> 
+
+</html>
    
 
 
