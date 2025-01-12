@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scenario</title>
+    <style>
+        body {
+            font-family: 'Consolas';
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: white;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/024/080/150/non_2x/green-and-black-background-gradient-illustration-free-photo.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: black;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            color: white;
+        }
+     .button {
+            display: inline-block;
+            padding: 25px 35px;
+            margin: 18px;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: none;
+            border-radius: 18px;
+            font-size: 28px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+       
+         .button:hover {
+            background-color: crimson;
+        }
+    </style>
+</style>
+    <script>
+        function showMessage(message) {
+            alert(message);
+
+    }
+    </script>
+</head>
+<body>
+    <h1>Catfishing</h1>
+
+    <p style="font-size: 24px;">
+        What is your next step?<br>
+    </p>
+
+    <center>
+        <button class="button" onclick="showMessage('Good job!')">Block and report</button>
+        <button class="button" onclick="showMessage('Be cautious because this could get you catfished easily')">Still text the person</button>
+    </center>
+</body>
+</html>
